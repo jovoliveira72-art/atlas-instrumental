@@ -1,4 +1,4 @@
-# De onde veio cada informação (v0.7)
+# De onde veio cada informação (v0.8)
 
 Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 
@@ -39,6 +39,8 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 | Torre do Aero S (a tampa da área da amostra e a mangueira de ar saíram do 3D na v0.7): indicador de status (azul contínuo/pulsando), conexões traseiras (ar de 5,5 a 8 bar, nominal 6; CAN; auxiliar; aterramento), trava da bandeja, funil com controle de fluxo, posição da unidade conforme o venturi, retirada do venturi (1/6 de volta) | MAN0481, §2.2, §2.3 e figs. 2.2 a 2.8 |
 | Troca do filtro de ar da tampa, limpeza do cesto, da bandeja e das tampas | MAN0481, §4.6 |
 
+| Vistas "Por dentro" e "Desmontar" (v0.8): textos do caminho da luz e da amostra reaproveitam as fichas das peças e as fontes acima (MAN0474 unidade óptica; MAN0479 §2.2–2.3 e §2.8–2.9; MAN0481 §2.3). "Partículas grandes espalham em ângulos pequenos" é o princípio da difração laser (MAN0675, §9.2) | ver linhas acima |
+
 **Interpretação minha, não está no manual:** no simulador, o modo esférico aplicado a partículas irregulares gera ondulações e resíduo maior, e o modo não esférico alarga um pouco a distribuição de esferas perfeitas. As tendências são plausíveis, mas a forma exata do efeito é ilustrativa.
 
-**Ainda NÃO verificado nos manuais:** a geometria interna exata (o 3D é esquemático) e as demais diferenças do 3000+ além da Data Quality Guidance.
+**Ainda NÃO verificado nos manuais:** a geometria interna exata (o 3D é esquemático; as direções de separação na vista Desmontar são didáticas, não a ordem de desmontagem do manual, que está só nos procedimentos guiados) e as demais diferenças do 3000+ além da Data Quality Guidance.
