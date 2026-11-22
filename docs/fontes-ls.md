@@ -1,6 +1,6 @@
-# LS 13 320 com Tornado: de onde veio cada informação (v0.1)
+# LS 13 320 com Tornado: de onde veio cada informação (v0.2)
 
-Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos do equipamento enviadas pelo setor. Um relatório de corrida do setor serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
+Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos do equipamento enviadas pelo setor: frente, laterais e traseira do Tornado e o banco com o compartimento aberto. Um relatório de corrida do setor serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
 
 | Informação | Onde está no manual |
 |---|---|
@@ -23,11 +23,13 @@ Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructio
 | Lentes de Fourier superior e inferior e lente de projeção: limpeza em espiral, papel uma vez só, nunca papel de óculos com silicone, offsets, alinhamento e background depois | Apêndice E, figs. E.1 e E.2 |
 | PIDS: diferença entre polarizações vertical e horizontal em três comprimentos de onda | Cap. 1, *PIDS* |
 
+| Proveta de plástico transparente e graduada no porta-amostra preto; bico de sucção chanfrado; parte traseira preta que entra no banco com a célula; quatro travas em T; janela redonda com três parafusos de um lado e janela retangular alta do outro; porta de vácuo na frente da base | Fotos do setor |
+
 **Interpretações minhas, não estão no manual:**
 - Que o PIDS não entra nas medições com o Tornado. Concluí isso da faixa de especificação (0,4 µm, a mesma do MLM) e da frase do manual que atribui a faixa até 0,017 µm ao PIDS.
 - A função da placa de impacto (ajudar a desfazer aglomerados) e do fluxo de bainha (afastar o pó das janelas). O manual só cita as duas peças na limpeza e na solução de problemas.
 - A definição do campo *Residual* do relatório. O manual do LS não o descreve nem dá limite.
-- Toda a geometria interna do 3D: posição das lentes, dos detectores, da célula, da tubulação interna e o lado em que ficam as fontes. O manual não traz desenho cotado. A aparência externa segue as fotos.
+- A geometria interna do 3D: posição das lentes e dos detectores, a tubulação interna e o lado em que ficam as fontes. A janela redonda virada para as fontes e a retangular para os detectores é dedução minha a partir das fotos. O manual não traz desenho cotado. A aparência externa e a posição da célula na parte traseira seguem as fotos.
 - As formas das curvas na animação do modelo óptico. As faixas de tamanho (100 e 10 µm) são do manual; o formato da diferença é ilustrativo.
 
 **A confirmar no equipamento ou no software:**
