@@ -1,4 +1,4 @@
-# De onde veio cada informação (v0.10)
+# De onde veio cada informação (v0.11)
 
 Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 
@@ -39,7 +39,7 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 | Torre do Aero S (a tampa da área da amostra e a mangueira de ar saíram do 3D na v0.7): indicador de status (azul contínuo/pulsando), conexões traseiras (ar de 5,5 a 8 bar, nominal 6; CAN; auxiliar; aterramento), trava da bandeja, funil com controle de fluxo, posição da unidade conforme o venturi, retirada do venturi (1/6 de volta) | MAN0481, §2.2, §2.3 e figs. 2.2 a 2.8 |
 | Troca do filtro de ar da tampa, limpeza do cesto, da bandeja e das tampas | MAN0481, §4.6 |
 
-| Vistas "Por dentro" e "Desmontar" (v0.10): textos do caminho da luz e da amostra reaproveitam as fichas das peças e as fontes acima (MAN0474 unidade óptica; MAN0479 §2.2–2.3 e §2.8–2.9; MAN0481 §2.3). "Partículas grandes espalham em ângulos pequenos" é o princípio da difração laser (MAN0675, §9.2) | ver linhas acima |
+| Vistas "Por dentro" e "Desmontar" (v0.11): textos do caminho da luz e da amostra reaproveitam as fichas das peças e as fontes acima (MAN0474 unidade óptica; MAN0479 §2.2–2.3 e §2.8–2.9; MAN0481 §2.3). "Partículas grandes espalham em ângulos pequenos" é o princípio da difração laser (MAN0675, §9.2) | ver linhas acima |
 
 | Luz vermelha e azul: na via úmida, background e amostra medidos primeiro com a vermelha e depois com a azul; na via seca, só a vermelha | MAN0675, §5 (sequência de medição) |
 | Duração da luz azul é ajuste exclusivo das unidades úmidas; azul mais significativa abaixo de 1 µm, com peso decrescente acima; pigmentos vermelhos e amarelos absorvem a azul; "Don't perform blue light measurement" | MAN0675, §10.3.2.1 e §10.3.2.2 |
@@ -48,6 +48,6 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 | A luz azul melhora a resolução abaixo de 1 µm; LED de 470 nm, 10 mW | MAN0474, visão geral da unidade óptica; MAN0475, especificação da luz azul |
 | A obscuração vem do detector central (Ob = 1 − Ls/Lb) | MAN0474, cap. 5 |
 
-**Interpretação minha, não está no manual:** a animação "Luz vermelha e luz azul" usa a aproximação de Rayleigh-Gans (o software usa Mie completo); a barra "quanto o padrão muda" é uma medida ilustrativa minha. A atribuição de detectores específicos à luz azul foi retirada por não estar nos manuais da pasta. no simulador, o modo esférico aplicado a partículas irregulares gera ondulações e resíduo maior, e o modo não esférico alarga um pouco a distribuição de esferas perfeitas. As tendências são plausíveis, mas a forma exata do efeito é ilustrativa.
+**Interpretação minha, não está no manual:** a animação "Luz vermelha e luz azul" usa a aproximação de Rayleigh-Gans (o software usa Mie completo); os rótulos "diferencia bem/pouco" vêm de um critério ilustrativo meu (diferença média entre as duas curvas). A atribuição de detectores específicos à luz azul foi retirada por não estar nos manuais da pasta. no simulador, o modo esférico aplicado a partículas irregulares gera ondulações e resíduo maior, e o modo não esférico alarga um pouco a distribuição de esferas perfeitas. As tendências são plausíveis, mas a forma exata do efeito é ilustrativa.
 
 **Ainda NÃO verificado nos manuais:** a geometria interna exata (o 3D é esquemático; as direções de separação na vista Desmontar são didáticas, não a ordem de desmontagem do manual, que está só nos procedimentos guiados) e as demais diferenças do 3000+ além da Data Quality Guidance.
