@@ -1,4 +1,4 @@
-# LS 13 320 com Tornado: de onde veio cada informação (v0.2)
+# LS 13 320 com Tornado: de onde veio cada informação (v0.3)
 
 Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos do equipamento enviadas pelo setor: frente, laterais e traseira do Tornado e o banco com o compartimento aberto. Um relatório de corrida do setor serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
 
@@ -31,6 +31,20 @@ Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructio
 - A definição do campo *Residual* do relatório. O manual do LS não o descreve nem dá limite.
 - A geometria interna do 3D: posição das lentes e dos detectores, a tubulação interna e o lado em que ficam as fontes. A janela redonda virada para as fontes e a retangular para os detectores é dedução minha a partir das fotos. O manual não traz desenho cotado. A aparência externa e a posição da célula na parte traseira seguem as fotos.
 - As formas das curvas na animação do modelo óptico. As faixas de tamanho (100 e 10 µm) são do manual; o formato da diferença é ilustrativo.
+
+## Laboratório simulado (v0.3)
+
+O simulador (`src/ls/simulador.js`) é fenomenológico: reproduz a direção dos efeitos, não faz a inversão óptica. Os testes em `test/ls-simulador.test.mjs` conferem a direção de cada parâmetro.
+
+Vêm do manual: alvo de obscuração de 4 a 8% e média a ±2% do alvo; 5 a 30 cm³ de amostra; mínimo de 10 s de medição; faixa de 0,4 a 2000 µm em 92 canais; Fraunhofer quase igual a Mie acima de 100 µm, diferença pequena de 10 a 100 µm e Mie bem mais preciso com fração abaixo de 10 µm; background ruim exige correção; causas de vácuo alto e baixo; Mie supõe esferas homogêneas.
+
+São escolhas do simulador, sem base no manual:
+- a eficiência de dispersão de cada amostra no Tornado;
+- o consumo de amostra (0,1 cm³/s a 5% de obscuração);
+- que vácuo baixo deixa os grossos chegarem menos à célula e que vácuo alto reduz a obscuração;
+- a forma e o tamanho de cada desvio na curva, e o valor do resíduo.
+
+As condições de referência (alvo de 5%, 15 cm³, 60 s, Mie com o índice certo) seguem o manual e a ISO 13320, não o método validado do setor.
 
 **A confirmar no equipamento ou no software:**
 - Se o "vácuo alvo" registrado nos relatórios do setor é um parâmetro do método ou só um registro.
