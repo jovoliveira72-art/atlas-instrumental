@@ -1,5 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Atlas Instrumental</title>
-<meta http-equiv="refresh" content="0; url=mastersizer-3000.html?v=0.8">
-</head><body><p><a href="mastersizer-3000.html?v=0.8">Abrir o Atlas Instrumental: Mastersizer 3000</a></p></body></html>
+<style>
+  :root { --bancada: #141a21; --painel: #1b232c; --painel-2: #222c37; --linha: #2e3a47; --texto: #dde4eb; --suave: #8f9caa; --vermelho: #ff4a36;
+    --din: "Bahnschrift", "DIN Alternate", "Arial Narrow", "Segoe UI", sans-serif; --corpo: "Segoe UI Variable Text", "Segoe UI", system-ui, sans-serif; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: var(--bancada); color: var(--texto); font: 15px/1.55 var(--corpo); }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 24px 40px; }
+  h1 { font: 600 34px/1.1 var(--din); margin: 0 0 8px; }
+  .intro { color: var(--suave); max-width: 60ch; margin: 0 0 36px; }
+  ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linha); }
+  li a { display: grid; grid-template-columns: 1fr auto; gap: 4px 20px; padding: 20px 4px; border-bottom: 1px solid var(--linha); color: inherit; text-decoration: none; }
+  li a:hover, li a:focus-visible { background: var(--painel); outline: none; }
+  li a:focus-visible { box-shadow: inset 2px 0 0 #3aa0ff; }
+  .nome { font: 600 22px/1.2 var(--din); }
+  .tecnica { color: var(--suave); font-size: 14px; align-self: center; text-align: right; }
+  .modulos { grid-column: 1 / -1; color: var(--suave); font-size: 14px; }
+  footer { margin-top: 40px; color: var(--suave); font-size: 13px; }
+  @media (max-width: 520px) { li a { grid-template-columns: 1fr; } .tecnica { text-align: left; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Atlas Instrumental</h1>
+  <p class="intro">Materiais interativos sobre os equipamentos da Pré-Formulação: o equipamento em 3D, o caminho da amostra passo a passo e o vocabulário do software.</p>
+  <ul>
+    <li><a href="mastersizer-3000.html?v=0.8">
+      <span class="nome">Mastersizer 3000 e 3000+</span><span class="tecnica">Difração laser</span>
+      <span class="modulos">Hydro MV e Hydro SV (líquido), Aero S (seco) e laboratório simulado</span></a></li>
+    <li><a href="ls-13320.html?v=0.1">
+      <span class="nome">LS 13 320</span><span class="tecnica">Difração laser</span>
+      <span class="modulos">Tornado (seco)</span></a></li>
+  </ul>
+  <footer>Material didático de apoio, elaborado pela Pré-Formulação. Não substitui o treinamento formal.</footer>
+</main>
+</body>
+</html>

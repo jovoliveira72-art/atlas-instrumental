@@ -1,0 +1,35 @@
+# LS 13 320 com Tornado: de onde veio cada informação (v0.1)
+
+Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos do equipamento enviadas pelo setor. Um relatório de corrida do setor serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
+
+| Informação | Onde está no manual |
+|---|---|
+| Laser de diodo de 5 mW, 750 ou 780 nm; filtro espacial de fibra óptica; lâmpada de tungstênio-halogênio com filtros de 450, 600 e 900 nm e polarizadores | Introdução, *Light Source* |
+| Fonte, filtro espacial, lente de projeção, célula, óptica de Fourier, três conjuntos de detectores (ângulo baixo, médio e alto) | Introdução, *Optical Bench Overview* e fig. 4 |
+| Encaixe automático: botões OPEN e EJECT MODULE, pinos da bandeja, inclinação de 30°, autoteste | §6, *Docking the Tornado DPS*; Introdução, fig. 5 |
+| Tornado: 0,4 a 2000 µm, 5 a 30 cm³, mínimo de 10 s de medição, controle de obscuração de 4 a 8% com média a ±2% do alvo, dispersa pós coesos sem moer frágeis, sistema sob vácuo com filtro | §6, *Tornado Dry Powder System* e *Tornado Description* |
+| LEDs Error, Load Sample, Vacuum e Power | §6, fig. 6.33 |
+| Menu Control (Run Cleaner, Feed Sample, Sample Lift, Spinner, Lamp, Vacuum, Vacuum Settings) | §6, *Control Menu* |
+| SOM (passo 4: obscuração de 4 a 8%; ISO 13320 sugere 5%), SOP = SOM + preferências; segurança alta só o administrador salva | §6, *SOM* e *SOP* |
+| Limpeza: amostra de limpeza de 15 a 25 cm³; janelas (suporte, quatro travas, papel de lente com limpador); tampa com duas travas; placa de impacto com quatro parafusos; tubos de sucção e de bainha; filtro de bainha | §6, *Cleaning the Tornado DPS* e figs. 6.34 a 6.40 |
+| Problemas de vácuo, LEDs e background | §6, *Tornado DPS Troubleshooting* |
+| Fonte de vácuo: 420 L/min a 740–750 torr (5 a 10" de água abaixo da atmosfera), interruptor remoto | Cap. 2, *Vacuum for Tornado*; §6, especificações |
+| Faixas: 0,017–2000 µm (ALM, ULM) e 0,4–2000 µm (MLM, Tornado); 92 e 116 canais; repetibilidade de 1%; medição de 1 a 999 s, típica de 30 a 90 s | Apêndice A |
+| Aquecimento de 20 min (15 min em *Warming up*); fontes de erro; variação de 2 °C/h exige alinhamento e offsets pelo menos a cada hora | Segurança, *Other Precautions*; Cap. 2, *Getting Started*; Apêndice A |
+| Offsets, alinhamento a 1–2 µm do centro, background, carga; obscuração de 4 a 7% basta no Tornado | Cap. 2, *Making Measurements* |
+| Amostras-controle (G35 e GB 500 para o Tornado), verificação diária, sem calibração | Cap. 2, *Instrument Verification* e tab. 2.3 |
+| Background duas vezes acima do normal: corrigir antes de medir; ver View › Intensity | Apêndice D |
+| Fraunhofer × Mie: quase iguais acima de 100 µm, diferença pequena de 10 a 100 µm, modelo correto bem mais preciso com fração abaixo de 10 µm; Mie supõe esferas homogêneas | Apêndice C; Cap. 1, *Fraunhofer Theory* |
+| Lentes de Fourier superior e inferior e lente de projeção: limpeza em espiral, papel uma vez só, nunca papel de óculos com silicone, offsets, alinhamento e background depois | Apêndice E, figs. E.1 e E.2 |
+| PIDS: diferença entre polarizações vertical e horizontal em três comprimentos de onda | Cap. 1, *PIDS* |
+
+**Interpretações minhas, não estão no manual:**
+- Que o PIDS não entra nas medições com o Tornado. Concluí isso da faixa de especificação (0,4 µm, a mesma do MLM) e da frase do manual que atribui a faixa até 0,017 µm ao PIDS.
+- A função da placa de impacto (ajudar a desfazer aglomerados) e do fluxo de bainha (afastar o pó das janelas). O manual só cita as duas peças na limpeza e na solução de problemas.
+- A definição do campo *Residual* do relatório. O manual do LS não o descreve nem dá limite.
+- Toda a geometria interna do 3D: posição das lentes, dos detectores, da célula, da tubulação interna e o lado em que ficam as fontes. O manual não traz desenho cotado. A aparência externa segue as fotos.
+- As formas das curvas na animação do modelo óptico. As faixas de tamanho (100 e 10 µm) são do manual; o formato da diferença é ilustrativo.
+
+**A confirmar no equipamento ou no software:**
+- Se o "vácuo alvo" registrado nos relatórios do setor é um parâmetro do método ou só um registro.
+- O que o campo *Obscuration* do relatório mostra (média, valor final ou pico).
