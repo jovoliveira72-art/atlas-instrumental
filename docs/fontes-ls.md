@@ -1,6 +1,6 @@
-# LS 13 320 com Tornado: de onde veio cada informação (v0.3)
+# LS 13 320 com ULM e Tornado: de onde veio cada informação (v0.5)
 
-Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos do equipamento enviadas pelo setor: frente, laterais e traseira do Tornado e o banco com o compartimento aberto. Um relatório de corrida do setor serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
+Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos do equipamento enviadas pelo setor: frente, laterais e traseira do Tornado, o banco com o compartimento aberto e, desde a v0.5, o ULM (frente, laterais, etiqueta *Universal Liquids Module 2*, montagem 383665) com a sonda e a unidade de controle de sonicação. Um relatório de corrida do setor serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
 
 | Informação | Onde está no manual |
 |---|---|
@@ -25,8 +25,36 @@ Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructio
 
 | Proveta de plástico transparente e graduada no porta-amostra preto; bico de sucção chanfrado; parte traseira preta que entra no banco com a célula; quatro travas em T; janela redonda com três parafusos de um lado e janela retangular alta do outro; porta de vácuo na frente da base | Fotos do setor |
 
-**Interpretações minhas, não estão no manual:**
-- Que o PIDS não entra nas medições com o Tornado. Concluí isso da faixa de especificação (0,4 µm, a mesma do MLM) e da frase do manual que atribui a faixa até 0,017 µm ao PIDS.
+## ULM (v0.5)
+
+| Informação | Onde está no manual |
+|---|---|
+| ULM: 0,017 a 2000 µm, mede toda a amostra recirculando, volume total de 125 mL, aquoso e orgânico, alvo de obscuração fixado ou automático, bomba interna com sensor de nível, enchimento e enxágue automáticos, rejeito em recipiente | §6, *Universal Liquid Module* e *ULM Description* |
+| Encaixe: OPEN, EJECT MODULE, pinos, inclinação de 30°, uma mão no topo e outra na base | §6, *Loading the ULM* |
+| Menu Control: Fill, Rinse (abrir dreno, fechar dreno, encher, bomba; N vezes), De-bubble, Pump Speed, Pump On/Off, Sonicate (tempo e potência), Open/Close Inlet, Open/Close Drain | §6, *ULM Software* |
+| SOM passo 4: 60 s sem PIDS (mínimo 10 s), pelo menos 90 s com PIDS; bomba a ~30% com surfactante; 100% e depois ~50%, duas ou três vezes, para bolhas; bomba alta para partículas grandes e densas | §6, *Creating SOMs* |
+| Líquidos: materiais molhados (Teflon, inox 316, vidro, Kalrez), ponto de fulgor > 10 °C, densidade ≥ 0,6, requisitos (transparente de 450 a 900 nm, limpo, sem bolhas etc.), lista de líquidos aceitos, miscibilidade antes de trocar | §6, *Suspension Fluids* e fig. 6.41 |
+| Limpeza: Rinse, Open Drain, solução de limpeza pela entrada, Fill, 15 min a 1 h, Rinse; tampa com parafusos borboleta e haste do kit; superfícies ópticas a cada três meses | §6, *Cleaning the ULM* |
+| Troca da janela de difração (anel, dois parafusos de náilon, o-ring, lado revestido para fora, teste do lápis, ferramenta de assentamento, teste de vazamento) | §6, *Replacing the Diffraction Cell Window* |
+| Problemas: sem comunicação, não enche, não drena, bomba parada, vazamento | §6, *ULM Troubleshooting* |
+| Dimensões (49,5 × 21 × 11,4 cm visíveis), 8,85 kg, < 50 W do banco | §6, *ULM Specifications* |
+| Obscuração: 8 a 12% sem PIDS; PIDS de 40 a 60%; com distribuição larga, aumentar a de difração mesmo com a PIDS acima do máximo | Cap. 2, *Measure Loading* |
+| Include PIDS para partículas abaixo de 0,4 µm (ULM e ALM); controles Latron 300LS, G15 e GB 500 | Cap. 2, *Running a Control* e tab. 2.3 |
+| PIDS: lâmpada de tungstênio-halogênio, 450, 600 e 900 nm, duas polarizações, seis detectores perto de 90° e um de obscuração, informação principal de 0,017 a 0,4 µm e melhora até 0,8 µm, mesma matriz de deconvolução | Cap. 1, *PIDS Sizing* |
+| 116 canais com ULM; 1 mg a 10 g de amostra | Apêndice A |
+| Preparo: escolha do diluente (solubilidade, reatividade, suspensão, uso final; niacina como exemplo de pó farmacêutico que pede meio não aquoso), receita prática (molhar, espatular, diluir, microscópio, energia, estabilidade), surfactantes, pH a 2 unidades do ponto isoelétrico, riscos do ultrassom, emulsões e lipossomas, diluente com índice ou cor parecidos | Apêndice B |
+| Corpo de inox com frente arredondada, topo branco com abertura e tampa articulada, conexões DRAIN e FILL na base, armação preta traseira com a célula (janela redonda com dois parafusos) e suporte branco, parafuso borboleta no alto da armação, sonda inclinada com etiqueta de não prender abaixo da linha, unidade *Sonication Control Unit* (LEDs SONICATING e POWER) sobre o banco | Fotos do setor |
+
+**Interpretações minhas sobre o ULM:**
+- A posição interna da bomba, do vaso e do caminho do líquido no 3D. O manual não traz desenho.
+- Que a tampa com parafusos borboleta fica no alto da célula e cobre as janelas PIDS. No ALM o manual mostra isso; no ULM ele só diz "tampa".
+- Que é preciso ejetar o módulo para alcançar a tampa da célula. O manual não diz, mas a célula fica dentro do banco.
+- A sonda de ultrassom e a unidade de sonicação: o guia só descreve o comando Sonicate; o resto vem das fotos.
+
+**Laboratório do ULM (`src/ls/simulador_ulm.js`, 14 testes em `test/ls-ulm.test.mjs`).** Vêm do manual as faixas e recomendações da tabela acima. São escolhas do simulador: as cinco amostras fictícias; quanto o ultrassom desfaz aglomerados e a partir de quando quebra; o limiar de 45% para bolhas com surfactante; a velocidade em que os grossos assentam; a relação entre a obscuração de difração e a PIDS; o borrão abaixo de 0,4 µm sem PIDS; e o tamanho de cada desvio. As condições de referência seguem o manual, não um método validado do setor.
+
+**Interpretações minhas (Tornado e banco):**
+- Que o PIDS não entra nas medições com o Tornado. Concluí isso da faixa de especificação (0,4 µm, a mesma do MLM), da frase do manual que atribui a faixa até 0,017 µm ao PIDS e da opção Include PIDS, que o manual restringe a ULM e ALM.
 - A função da placa de impacto (ajudar a desfazer aglomerados) e do fluxo de bainha (afastar o pó das janelas). O manual só cita as duas peças na limpeza e na solução de problemas.
 - A definição do campo *Residual* do relatório. O manual do LS não o descreve nem dá limite.
 - A geometria interna do 3D: posição das lentes e dos detectores, a tubulação interna e o lado em que ficam as fontes. A janela redonda virada para as fontes e a retangular para os detectores é dedução minha a partir das fotos. O manual não traz desenho cotado. A aparência externa e a posição da célula na parte traseira seguem as fotos.
