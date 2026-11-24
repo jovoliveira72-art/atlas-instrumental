@@ -1,4 +1,4 @@
-# De onde veio cada informação (v0.15)
+# De onde veio cada informação (v0.16)
 
 Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 
@@ -58,3 +58,13 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 **Interpretação minha, não está no manual:** no laboratório, a amostra fictícia E (aglomerada e robusta) e os limiares em que o venturi padrão deixa aglomerados e o de alta energia quebra partículas são escolhas do simulador; que, com o venturi de alta energia, a mesma pressão entrega mais energia ao pó (consequência da superfície de impacto) e que a titulação deve ser refeita ao trocar de venturi; a animação "Luz vermelha e luz azul" usa a aproximação de Rayleigh-Gans (o software usa Mie completo); os rótulos "diferencia bem/pouco" vêm de um critério ilustrativo meu (diferença média entre as duas curvas). A atribuição de detectores específicos à luz azul foi retirada por não estar nos manuais da pasta. no simulador, o modo esférico aplicado a partículas irregulares gera ondulações e resíduo maior, e o modo não esférico alarga um pouco a distribuição de esferas perfeitas. As tendências são plausíveis, mas a forma exata do efeito é ilustrativa.
 
 **Ainda NÃO verificado nos manuais:** a geometria interna exata (o 3D é esquemático; as direções de separação na vista Desmontar são didáticas, não a ordem de desmontagem do manual, que está só nos procedimentos guiados) e as demais diferenças do 3000+ além da Data Quality Guidance.
+
+## Aparência do 3D (v0.16)
+
+| Informação | Fonte |
+|---|---|
+| Carcaça prateada opaca, tampo grafite, cúpula central com crescentes escuros nas laterais, alavanca preta com botão metálico atrás, luz azul de status no tampo esquerdo, inscrições MASTERSIZER (frente) e MASTERSIZER 3000 (tampo) | Fotos do setor (unidade PRF-ATP-02) |
+| Frente da célula úmida: etiqueta vermelha com R no alto, HYDRO na vertical, conexão de gola azul em cima, duas conexões brancas da camisa no meio, gola amarela embaixo, faixa clara da bandeja de gotas na base | Fotos do setor; significado da etiqueta R e das cores das golas no MAN0479 |
+| Hydro MV: corpo cromado com base preta, braço cinza à direita que passa por cima do tanque e segura a cabeça preta, faixa azul de status curva na base à frente, tampa transparente, placa HYDRO MV, unidade à frente e à direita da célula com as mangueiras saindo por trás | Fotos do setor; partes (tanque, tampa, bomba e agitador, transdutor, entradas, dreno, indicador) do MAN0479, figs. 2.2 a 2.4 |
+
+**Interpretações minhas:** a forma exata do braço do Hydro MV, a posição das conexões, entradas e dreno na traseira (as fotos não mostram a traseira de perto), e a divisão da cúpula entre banco (laterais) e célula (faixa central com a alavanca). O logotipo do fabricante não foi reproduzido.
