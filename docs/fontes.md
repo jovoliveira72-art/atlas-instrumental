@@ -1,4 +1,4 @@
-# De onde veio cada informação (v0.11)
+# De onde veio cada informação (v0.13)
 
 Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 
@@ -39,7 +39,7 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 | Torre do Aero S (a tampa da área da amostra e a mangueira de ar saíram do 3D na v0.7): indicador de status (azul contínuo/pulsando), conexões traseiras (ar de 5,5 a 8 bar, nominal 6; CAN; auxiliar; aterramento), trava da bandeja, funil com controle de fluxo, posição da unidade conforme o venturi, retirada do venturi (1/6 de volta) | MAN0481, §2.2, §2.3 e figs. 2.2 a 2.8 |
 | Troca do filtro de ar da tampa, limpeza do cesto, da bandeja e das tampas | MAN0481, §4.6 |
 
-| Vistas "Por dentro" e "Desmontar" (v0.11): textos do caminho da luz e da amostra reaproveitam as fichas das peças e as fontes acima (MAN0474 unidade óptica; MAN0479 §2.2–2.3 e §2.8–2.9; MAN0481 §2.3). "Partículas grandes espalham em ângulos pequenos" é o princípio da difração laser (MAN0675, §9.2) | ver linhas acima |
+| Vistas "Por dentro" e "Desmontar" (v0.13): textos do caminho da luz e da amostra reaproveitam as fichas das peças e as fontes acima (MAN0474 unidade óptica; MAN0479 §2.2–2.3 e §2.8–2.9; MAN0481 §2.3). "Partículas grandes espalham em ângulos pequenos" é o princípio da difração laser (MAN0675, §9.2) | ver linhas acima |
 
 | Luz vermelha e azul: na via úmida, background e amostra medidos primeiro com a vermelha e depois com a azul; na via seca, só a vermelha | MAN0675, §5 (sequência de medição) |
 | Duração da luz azul é ajuste exclusivo das unidades úmidas; azul mais significativa abaixo de 1 µm, com peso decrescente acima; pigmentos vermelhos e amarelos absorvem a azul; "Don't perform blue light measurement" | MAN0675, §10.3.2.1 e §10.3.2.2 |
@@ -48,6 +48,12 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 | A luz azul melhora a resolução abaixo de 1 µm; LED de 470 nm, 10 mW | MAN0474, visão geral da unidade óptica; MAN0475, especificação da luz azul |
 | A obscuração vem do detector central (Ob = 1 − Ls/Lb) | MAN0474, cap. 5 |
 
-**Interpretação minha, não está no manual:** a animação "Luz vermelha e luz azul" usa a aproximação de Rayleigh-Gans (o software usa Mie completo); os rótulos "diferencia bem/pouco" vêm de um critério ilustrativo meu (diferença média entre as duas curvas). A atribuição de detectores específicos à luz azul foi retirada por não estar nos manuais da pasta. no simulador, o modo esférico aplicado a partículas irregulares gera ondulações e resíduo maior, e o modo não esférico alarga um pouco a distribuição de esferas perfeitas. As tendências são plausíveis, mas a forma exata do efeito é ilustrativa.
+| Venturi padrão (ligação reta, boa dispersão para ampla variedade, inclusive frágeis, unidade paralela ao banco) e de alta energia (ângulo reto, partículas robustas e fortemente aglomeradas, unidade de costas para o banco); inox e cerâmica com anéis para abrasivos | MAN0481, §2.1.1 e §2.3.2.5 |
+| Troca dos tubos do venturi pelo menos a cada três meses; acúmulo no cone, no bocal e no tubo; esferas de vidro grossas ou escova; limpeza avançada | MAN0481, §4 (cronograma) e §4.6.4 |
+| Pressões baixas para finos ou frágeis, altas para aglomerados ou metálicos | MAN0675, §5.3.3.3 |
+| Software registra o "disperser type"; venturi e bandeja escolhidos nos menus da unidade seca | MAN0481, §2.3.2.5; MAN0675, §10.4 |
+| Três mecanismos de dispersão (cisalhamento, choque partícula-parede, choque partícula-partícula); venturi padrão sem impacto direto contra a parede e de alta energia com superfície de impacto | Material enviado pelo setor: figura de mecanismos de dispersão e apresentação da ATA Scientific (distribuidor Malvern), slide "Aero S: modular venturi for flexibility". Não é manual; as imagens não foram reproduzidas, a animação é desenho próprio |
+
+**Interpretação minha, não está no manual:** que, com o venturi de alta energia, a mesma pressão entrega mais energia ao pó (consequência da superfície de impacto) e que a titulação deve ser refeita ao trocar de venturi; a animação "Luz vermelha e luz azul" usa a aproximação de Rayleigh-Gans (o software usa Mie completo); os rótulos "diferencia bem/pouco" vêm de um critério ilustrativo meu (diferença média entre as duas curvas). A atribuição de detectores específicos à luz azul foi retirada por não estar nos manuais da pasta. no simulador, o modo esférico aplicado a partículas irregulares gera ondulações e resíduo maior, e o modo não esférico alarga um pouco a distribuição de esferas perfeitas. As tendências são plausíveis, mas a forma exata do efeito é ilustrativa.
 
 **Ainda NÃO verificado nos manuais:** a geometria interna exata (o 3D é esquemático; as direções de separação na vista Desmontar são didáticas, não a ordem de desmontagem do manual, que está só nos procedimentos guiados) e as demais diferenças do 3000+ além da Data Quality Guidance.
