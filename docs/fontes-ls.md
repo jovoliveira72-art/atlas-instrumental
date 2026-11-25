@@ -1,6 +1,6 @@
 # LS 13 320 com ULM e Tornado: de onde veio cada informação (v0.5)
 
-Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos do equipamento enviadas pelo setor: frente, laterais e traseira do Tornado, o banco com o compartimento aberto e, desde a v0.5, o ULM (frente, laterais, etiqueta *Universal Liquids Module 2*, montagem 383665) com a sonda e a unidade de controle de sonicação. Um relatório de corrida do setor serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
+Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructions for Use* (B05577AA), na pasta `materiais`. Fotos de uma unidade em uso: frente, laterais e traseira do Tornado, o banco com o compartimento aberto e, desde a v0.5, o ULM (frente, laterais, etiqueta *Universal Liquids Module 2*, montagem 383665) com a sonda e a unidade de controle de sonicação. Um relatório de corrida serviu só para conferir nomes de campos (Average Vacuum, Residual, Optical model); produto, lote e resultados não aparecem no material.
 
 | Informação | Onde está no manual |
 |---|---|
@@ -23,7 +23,7 @@ Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructio
 | Lentes de Fourier superior e inferior e lente de projeção: limpeza em espiral, papel uma vez só, nunca papel de óculos com silicone, offsets, alinhamento e background depois | Apêndice E, figs. E.1 e E.2 |
 | PIDS: diferença entre polarizações vertical e horizontal em três comprimentos de onda | Cap. 1, *PIDS* |
 
-| Proveta de plástico transparente e graduada no porta-amostra preto; bico de sucção chanfrado; parte traseira preta que entra no banco com a célula; quatro travas em T; janela redonda com três parafusos de um lado e janela retangular alta do outro; porta de vácuo na frente da base | Fotos do setor |
+| Proveta de plástico transparente e graduada no porta-amostra preto; bico de sucção chanfrado; parte traseira preta que entra no banco com a célula; quatro travas em T; janela redonda com três parafusos de um lado e janela retangular alta do outro; porta de vácuo na frente da base | Fotos de referência |
 
 ## ULM (v0.5)
 
@@ -43,7 +43,7 @@ Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructio
 | PIDS: lâmpada de tungstênio-halogênio, 450, 600 e 900 nm, duas polarizações, seis detectores perto de 90° e um de obscuração, informação principal de 0,017 a 0,4 µm e melhora até 0,8 µm, mesma matriz de deconvolução | Cap. 1, *PIDS Sizing* |
 | 116 canais com ULM; 1 mg a 10 g de amostra | Apêndice A |
 | Preparo: escolha do diluente (solubilidade, reatividade, suspensão, uso final; niacina como exemplo de pó farmacêutico que pede meio não aquoso), receita prática (molhar, espatular, diluir, microscópio, energia, estabilidade), surfactantes, pH a 2 unidades do ponto isoelétrico, riscos do ultrassom, emulsões e lipossomas, diluente com índice ou cor parecidos | Apêndice B |
-| Corpo de inox com frente arredondada, topo branco com abertura e tampa articulada, conexões DRAIN e FILL na base, armação preta traseira com a célula (janela redonda com dois parafusos) e suporte branco, parafuso borboleta no alto da armação, sonda inclinada com etiqueta de não prender abaixo da linha, unidade *Sonication Control Unit* (LEDs SONICATING e POWER) sobre o banco | Fotos do setor |
+| Corpo de inox com frente arredondada, topo branco com abertura e tampa articulada, conexões DRAIN e FILL na base, armação preta traseira com a célula (janela redonda com dois parafusos) e suporte branco, parafuso borboleta no alto da armação, sonda inclinada com etiqueta de não prender abaixo da linha, unidade *Sonication Control Unit* (LEDs SONICATING e POWER) sobre o banco | Fotos de referência |
 
 **Interpretações minhas sobre o ULM:**
 - A posição interna da bomba, do vaso e do caminho do líquido no 3D. O manual não traz desenho.
@@ -51,7 +51,7 @@ Fonte principal: *LS 13 320 Laser Diffraction Particle Size Analyzer, Instructio
 - Que é preciso ejetar o módulo para alcançar a tampa da célula. O manual não diz, mas a célula fica dentro do banco.
 - A sonda de ultrassom e a unidade de sonicação: o guia só descreve o comando Sonicate; o resto vem das fotos.
 
-**Laboratório do ULM (`src/ls/simulador_ulm.js`, 14 testes em `test/ls-ulm.test.mjs`).** Vêm do manual as faixas e recomendações da tabela acima. São escolhas do simulador: as cinco amostras fictícias; quanto o ultrassom desfaz aglomerados e a partir de quando quebra; o limiar de 45% para bolhas com surfactante; a velocidade em que os grossos assentam; a relação entre a obscuração de difração e a PIDS; o borrão abaixo de 0,4 µm sem PIDS; e o tamanho de cada desvio. As condições de referência seguem o manual, não um método validado do setor.
+**Laboratório do ULM (`src/ls/simulador_ulm.js`, 14 testes em `test/ls-ulm.test.mjs`).** Vêm do manual as faixas e recomendações da tabela acima. São escolhas do simulador: as cinco amostras fictícias; quanto o ultrassom desfaz aglomerados e a partir de quando quebra; o limiar de 45% para bolhas com surfactante; a velocidade em que os grossos assentam; a relação entre a obscuração de difração e a PIDS; o borrão abaixo de 0,4 µm sem PIDS; e o tamanho de cada desvio. As condições de referência seguem o manual, não um método validado.
 
 **Interpretações minhas (Tornado e banco):**
 - Que o PIDS não entra nas medições com o Tornado. Concluí isso da faixa de especificação (0,4 µm, a mesma do MLM), da frase do manual que atribui a faixa até 0,017 µm ao PIDS e da opção Include PIDS, que o manual restringe a ULM e ALM.
@@ -72,8 +72,8 @@ São escolhas do simulador, sem base no manual:
 - que vácuo baixo deixa os grossos chegarem menos à célula e que vácuo alto reduz a obscuração;
 - a forma e o tamanho de cada desvio na curva, e o valor do resíduo.
 
-As condições de referência (alvo de 5%, 15 cm³, 60 s, Mie com o índice certo) seguem o manual e a ISO 13320, não o método validado do setor.
+As condições de referência (alvo de 5%, 15 cm³, 60 s, Mie com o índice certo) seguem o manual e a ISO 13320, não um método validado.
 
 **A confirmar no equipamento ou no software:**
-- Se o "vácuo alvo" registrado nos relatórios do setor é um parâmetro do método ou só um registro.
+- Se o "vácuo alvo" registrado em relatórios de corrida é um parâmetro do método ou só um registro.
 - O que o campo *Obscuration* do relatório mostra (média, valor final ou pico).
