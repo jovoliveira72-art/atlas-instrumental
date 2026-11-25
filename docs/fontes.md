@@ -1,4 +1,4 @@
-# De onde veio cada informação (v0.16)
+# De onde veio cada informação (v0.18)
 
 Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 
@@ -68,3 +68,15 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 | Hydro MV: corpo cromado com base preta, braço cinza à direita que passa por cima do tanque e segura a cabeça preta, faixa azul de status curva na base à frente, tampa transparente, placa HYDRO MV, unidade à frente e à direita da célula com as mangueiras saindo por trás | Fotos do setor; partes (tanque, tampa, bomba e agitador, transdutor, entradas, dreno, indicador) do MAN0479, figs. 2.2 a 2.4 |
 
 **Interpretações minhas:** a forma exata do braço do Hydro MV, a posição das conexões, entradas e dreno na traseira (as fotos não mostram a traseira de perto), e a divisão da cúpula entre banco (laterais) e célula (faixa central com a alavanca). O logotipo do fabricante não foi reproduzido.
+
+## Aero S e conexões do Hydro MV (v0.18)
+
+| Informação | Fonte |
+|---|---|
+| Aero S: perfil lateral com base grafite atrás e embaixo e corpo prateado, costura central na frente, faixa azul de status embaixo na frente, AERO S nas laterais, deque baixo na frente com a gola de borracha do venturi e o adesivo de aviso, bandeja cromada atrás, dobradiça com pomos pretos atrás, tampa transparente afunilada | Fotos do setor (tampa aberta e fechada, com e sem bandeja e venturi) |
+| Tampa da área de amostra: proteção e redução de ruído, trava magnética, intertravamento (volta para espera se aberta), filtro de entrada de ar na tampa | MAN0481, §2.3.1 e §2.3.1.1 |
+| Bandejas: quadro em U anodizado com calha; microbandeja sem funil; funil com anel graduado de abertura (0 a 4) e gola creme, cesto de malha com esfera, alavanca de trava do funil ao lado; trava preta da bandeja atrás | Fotos do setor; MAN0481, §2.3.2 |
+| Venturi padrão: bloco sextavado com cone de entrada e saída lateral com disco de borracha até o tubo preto | Fotos do setor (venturi padrão em todas) |
+| Hydro MV: conexões na lateral do corpo, de cima para baixo: entrada superior tampada, gola azul, gola amarela, engate branco, porca do dreno com mangueira corrugada, conector laranja; mangueiras transparentes; faixa preta curva e painel prateado na lateral | Foto do setor; ordem compatível com a fig. 2.3 do MAN0479 |
+
+**Interpretações minhas:** qual conector é cada entrada de dispersante, o dreno e o CAN (deduzido da ordem da fig. 2.3 do manual e do aspecto); o formato exato da tampa do Aero e o venturi de alta energia, que não aparece nas fotos e segue o desenho anterior.
