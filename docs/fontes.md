@@ -1,4 +1,4 @@
-# De onde veio cada informação (v0.18)
+# De onde veio cada informação (v0.19)
 
 Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 
@@ -80,3 +80,9 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 | Hydro MV: conexões na lateral do corpo, de cima para baixo: entrada superior tampada, gola azul, gola amarela, engate branco, porca do dreno com mangueira corrugada, conector laranja; mangueiras transparentes; faixa preta curva e painel prateado na lateral | Foto do setor; ordem compatível com a fig. 2.3 do MAN0479 |
 
 **Interpretações minhas:** qual conector é cada entrada de dispersante, o dreno e o CAN (deduzido da ordem da fig. 2.3 do manual e do aspecto); o formato exato da tampa do Aero e o venturi de alta energia, que não aparece nas fotos e segue o desenho anterior.
+
+## Ajustes de apresentação (v0.19)
+
+- A tampa da área de amostra do Aero saiu do 3D para não atrapalhar a visão da bandeja e do venturi. A informação sobre ela (intertravamento, trava magnética, filtro de ar) continua no MAN0481, §2.3.1.
+- Venturi padrão: a saída lateral fica alinhada com a entrada da célula seca e o tubo é reto. Para isso o Aero foi desenhado a 78% da escala do banco; a proporção real entre os dois não foi medida.
+- Hydro MV afastado do banco, com as mangueiras em arco; cabos e mangueira de dreno omitidos por clareza.
