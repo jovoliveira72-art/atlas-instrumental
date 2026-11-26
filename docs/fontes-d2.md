@@ -106,3 +106,7 @@ Duas etapas novas no início da Jornada.
 
 ## v0.8: varredura em tempo real
 O difratograma do laboratório é desenhado à medida que o feixe avança, sincronizado com a vista da geometria por um relógio comum. A duração real fica comprimida em cerca de 10 s. O cursor mostra o ângulo e o tempo simulado ("x de 16 min"). A varredura recomeça a cada mudança de parâmetro ou ao clicar em "Medir novamente". Com movimento reduzido no sistema, o resultado aparece completo. O resultado numérico e os alertas são calculados de uma vez e aparecem antes do fim da animação.
+
+## v0.9 — Ajuda nos parâmetros do laboratório
+- Cada campo do laboratório ganhou um "i": passar o mouse (ou tocar, no celular) mostra um resumo de como o parâmetro afeta o difratograma.
+- Os resumos reaproveitam as regras já documentadas acima (Bragg, deslocamento por altura, comprimento iluminado, regra da abertura do PSD do SOP da WSU, critério de 0,2° da USP <941>). Nenhuma regra nova foi criada para eles.
