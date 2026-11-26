@@ -53,3 +53,16 @@
 - Fotos da unidade, para o 3D.
 - Diâmetro e profundidade da cavidade do porta-amostra.
 - Fenda, anteparo e abertura do LYNXEYE usados no método.
+
+## v0.2: aparência pelas fotos de modelo
+O usuário enviou fotos de modelo do D2 PHASER 2nd Gen. Não são da unidade, mas são bem próximas. O 3D passou a seguir:
+- **Frente em três partes:**
+  - coluna esquerda com os LEDs Ready, On, Alarm e Busy, de cima para baixo;
+  - porta no centro, com monitor, puxador preto e painel embaixo;
+  - coluna direita com "D2 PHASER" na vertical, "2nd Gen" e a marca.
+- **Faixa âmbar de raios X:** no alto da porta.
+- **Cores:** laterais azul-marinho e base preta com a gaveta do teclado.
+- **Compartimento:** janela logo abaixo do puxador, com moldura escura e trilhos. A porta desliza para cima para abrir.
+- **Por dentro:** disco do goniômetro prateado, tubo com adesivo de aviso, LYNXEYE em carcaça clara com furos ovais, trocador embaixo no centro e um bloco escuro sobre a amostra.
+
+Continuam esquemáticas: as posições internas e as proporções exatas.
