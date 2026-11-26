@@ -77,3 +77,15 @@ As condições de referência (alvo de 5%, 15 cm³, 60 s, Mie com o índice cert
 **A confirmar no equipamento ou no software:**
 - Se o "vácuo alvo" registrado em relatórios de corrida é um parâmetro do método ou só um registro.
 - O que o campo *Obscuration* do relatório mostra (média, valor final ou pico).
+
+## v0.10 — PIDS: como funciona
+
+Novo passo na jornada do ULM, antes de "PIDS: quando incluir". Fonte: cap. 1 do manual (*Theory › PIDS* e *PIDS Sizing*, fig. 1.2): dipolo induzido, Iv − Ih como sinal PIDS, três comprimentos de onda (450, 600 e 900 nm), seis detectores perto de 90°, 36 leituras reduzidas a 18, sétimo detector para a obscuração PIDS, mesma matriz de deconvolução da difração.
+
+**Cálculo:** o gráfico do passo novo e as barras do PIDS no passo seguinte usam a teoria de Mie (`scripts/pids_mie.py`, biblioteca miepython), com látex de poliestireno (n 1,59) em água (n 1,33), de 60 a 120°. A grandeza mostrada é (Iv − Ih)/(Iv + Ih). Antes, as barras eram uma curva inventada. As barras agora mostram quanto o padrão de cada cor já se afastou do padrão de partícula mínima (média do afastamento absoluto, escala do simulador).
+
+**Escolhas minhas:** as posições angulares dos seis detectores (o manual só diz "centrados em cerca de 90°"); a amostra de látex; a vista de cima com o lóbulo de dipolo ideal no painel esquerdo.
+
+**Incoerências do manual:** a teoria fala em limite "até 40 nm", a especificação em 0,017 µm; a descrição dos 36 → 18 fala em "cinco ângulos", mas 18 = 3 cores × 6 ângulos. O texto do Atlas cita os dois limites e usa seis ângulos.
+
+**Vácuo do Tornado (consulta da v0.10):** o manual não descreve ajuste de vácuo como parâmetro de dispersão. A fonte de vácuo precisa sustentar 420 L/min a 5–10" de água abaixo da atmosfera; o software só tem limites inferior e superior de erro (Control › Vacuum Settings, Administrator ou Supervisor), e o LED indica leitura baixa ou alta. Por isso o laboratório mantém o vácuo como condição do equipamento, não como regulagem.
