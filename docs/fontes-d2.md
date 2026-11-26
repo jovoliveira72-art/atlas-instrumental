@@ -98,3 +98,8 @@ Duas etapas novas no início da Jornada.
   - a posição dos picos depende da célula, e a intensidade, do conteúdo dela;
   - o método é, em geral, não destrutivo.
 - **Base didática:** folhetos da IUCr nº 1 e 21.
+
+## v0.7: amostra totalmente amorfa e correção de escala
+- **Nova amostra "F: totalmente amorfa":** só halo, sem picos. O alerta explica que o DRX confirma o estado amorfo, mas não identifica a substância. Nessa amostra, sinal/ruído, pontos por pico e o critério da USP aparecem como "sem picos" ou "—".
+- **Halo:** passou a ter a mesma escala dos picos, com cerca de 7% da altura do pico de 100% (escolha do simulador).
+- **Correção:** a escala dos picos era normalizada pela fase mais forte da própria amostra, e a fração cristalina não aparecia na altura dos picos. Agora a escala é a da fase pura. Com isso, 25% de forma I dá picos com cerca de um quarto da altura, e os 15% de forma II da mistura ficam proporcionais.
