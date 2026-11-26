@@ -74,3 +74,16 @@ Continuam esquemáticas: as posições internas e as proporções exatas.
   - a alta tensão só liga com a porta fechada e travada.
 - **LEDs, do manual:** depois que os raios X desligam, o LED Ready pisca, porque o filamento segue aquecido.
 - **Escolha minha:** no 3D, o controle "Raios X e varredura" faz o papel de ligar a alta tensão.
+
+## v0.5: critérios da USP <941>
+Fonte: USP <941>, texto harmonizado Stage 4 (2021), baixado da página da USP, em `materiais\D2 PHASER`. Para identificação de fases:
+- **Faixa:** de perto de 0° até pelo menos 30° 2θ.
+- **Concordância:** espera-se que cada pico da amostra fique a até 0,2° 2θ do pico da referência, com a ressalva do capítulo para materiais em que se esperam variações maiores.
+- **Moagem:** moer demais pode alterar a fase.
+
+No laboratório, o "Maior desvio de pico" calcula o desvio de cada pico da referência pela altura da amostra (2·s·cosθ/R) e compara com 0,2°. O zoom mostra a faixa de ±0,2°. No simulador, só a altura desloca os picos: não há erro de zero.
+
+Outros materiais na pasta, sem uso direto no Atlas ainda:
+- Fawcett et al., 2019, revisão na revista *Powder Diffraction*;
+- tutorial "How to Analyze Drugs", da ICDD;
+- folhetos da IUCr nº 1 (introdução), 3 (fatores de estrutura) e 21 (empacotamento cristalino).
