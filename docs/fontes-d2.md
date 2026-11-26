@@ -87,3 +87,14 @@ Outros materiais na pasta, sem uso direto no Atlas ainda:
 - Fawcett et al., 2019, revisão na revista *Powder Diffraction*;
 - tutorial "How to Analyze Drugs", da ICDD;
 - folhetos da IUCr nº 1 (introdução), 3 (fatores de estrutura) e 21 (empacotamento cristalino).
+
+## v0.6: Fundamentos
+Duas etapas novas no início da Jornada.
+- **Lei de Bragg:** física padrão. A curva do difratograma de uma família de planos (d = 5,12 Å) usa a função de interferência de N = 30 camadas; o ângulo dos raios está desenhado em dobro.
+- **Do arranjo ao difratograma:** o empacotamento é esquemático; os picos são os das formas fictícias do simulador.
+- **Afirmações sobre a técnica:** vêm da USP <941>:
+  - os raios X interagem com as nuvens de elétrons;
+  - cada fase dá um padrão característico;
+  - a posição dos picos depende da célula, e a intensidade, do conteúdo dela;
+  - o método é, em geral, não destrutivo.
+- **Base didática:** folhetos da IUCr nº 1 e 21.
