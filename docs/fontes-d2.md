@@ -66,3 +66,11 @@ O usuário enviou fotos de modelo do D2 PHASER 2nd Gen. Não são da unidade, ma
 - **Por dentro:** disco do goniômetro prateado, tubo com adesivo de aviso, LYNXEYE em carcaça clara com furos ovais, trocador embaixo no centro e um bloco escuro sobre a amostra.
 
 Continuam esquemáticas: as posições internas e as proporções exatas.
+
+## v0.3: porta com alavanca e travas
+- **Abrir a porta:** a alavanca no centro do puxador (ou o botão **Abrir a porta**) faz a porta subir e expõe o compartimento. Fontes: o manual ("lift the knob on the lower side of the display") e as fotos de modelo.
+- **Travas, do manual:**
+  - com os raios X ligados, a porta só se move cerca de 4 mm e continua travada;
+  - a alta tensão só liga com a porta fechada e travada.
+- **LEDs, do manual:** depois que os raios X desligam, o LED Ready pisca, porque o filamento segue aquecido.
+- **Escolha minha:** no 3D, o controle "Raios X e varredura" faz o papel de ligar a alta tensão.
