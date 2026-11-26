@@ -103,3 +103,6 @@ Duas etapas novas no início da Jornada.
 - **Nova amostra "F: totalmente amorfa":** só halo, sem picos. O alerta explica que o DRX confirma o estado amorfo, mas não identifica a substância. Nessa amostra, sinal/ruído, pontos por pico e o critério da USP aparecem como "sem picos" ou "—".
 - **Halo:** passou a ter a mesma escala dos picos, com cerca de 7% da altura do pico de 100% (escolha do simulador).
 - **Correção:** a escala dos picos era normalizada pela fase mais forte da própria amostra, e a fração cristalina não aparecia na altura dos picos. Agora a escala é a da fase pura. Com isso, 25% de forma I dá picos com cerca de um quarto da altura, e os 15% de forma II da mistura ficam proporcionais.
+
+## v0.8: varredura em tempo real
+O difratograma do laboratório é desenhado à medida que o feixe avança, sincronizado com a vista da geometria por um relógio comum. A duração real fica comprimida em cerca de 10 s. O cursor mostra o ângulo e o tempo simulado ("x de 16 min"). A varredura recomeça a cada mudança de parâmetro ou ao clicar em "Medir novamente". Com movimento reduzido no sistema, o resultado aparece completo. O resultado numérico e os alertas são calculados de uma vez e aparecem antes do fim da animação.
