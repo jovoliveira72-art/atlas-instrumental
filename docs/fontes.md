@@ -93,3 +93,7 @@ Use esta lista para revisar. Os manuais citados estão em `materiais/`.
 - tn130222 Wet or liquid dispersion method development (sucessora da MRK561-01): teste do béquer, titulação de dispersão em três estágios, COV da ISO, massa mínima, faixas de obscuração, duração e titulação de agitação.
 - tn120806 Aero S disperser: geometria dos venturis e exemplo do leite em pó (padrão a 3–4 bar, alta energia a 1 bar).
 - MRK671-01 (validação de método): original em inglês não localizado; só há no site da Malvern a parte 2 de uma versão traduzida (2011).
+
+## v0.23 — Ajuda nos parâmetros do laboratório
+- Cada campo do laboratório ganhou um "i" com um resumo de como o parâmetro afeta a curva (mouse no computador, toque no celular), com textos próprios para a via úmida e a seca.
+- Os textos descrevem as regras que o simulador já usa e que estão documentadas acima: faixas de obscuração (MAN0675, tab. 11.1), bolhas por tensoativo e falta de degaseificação (MAN0479 §4.3), limite de 600 µm do modo pó fino (MAN0675 §9.10.3), Fraunhofer impreciso abaixo de ~50 µm. O limiar de Dv90 ≈ 150 µm da microbandeja é escolha do simulador e está marcado assim no texto.
