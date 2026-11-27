@@ -110,3 +110,15 @@ O difratograma do laboratório é desenhado à medida que o feixe avança, sincr
 ## v0.9 — Ajuda nos parâmetros do laboratório
 - Cada campo do laboratório ganhou um "i": passar o mouse (ou tocar, no celular) mostra um resumo de como o parâmetro afeta o difratograma.
 - Os resumos reaproveitam as regras já documentadas acima (Bragg, deslocamento por altura, comprimento iluminado, regra da abertura do PSD do SOP da WSU, critério de 0,2° da USP <941>). Nenhuma regra nova foi criada para eles.
+
+## v0.10 — Interior redesenhado pelas fotos de uma unidade
+- Fotos do interior de uma unidade em uso (novembro de 2026) substituíram as fotos de modelo da internet na parte interna:
+  - tubo com cabeçote cinza longo e saída dourada; módulo de fendas de aço com a etiqueta "0.6mm" (fenda de 0,6 mm instalada);
+  - LYNXEYE com módulo de fendas de aço na frente e cabos laranja e preto atrás;
+  - braços com placa e cubo redondo; disco grande atrás;
+  - trocador horizontal na frente do centro, com 6 furos, ímãs na borda e números 1 a 6 no miolo; eixo, motor de passo e caixa do mecanismo embaixo;
+  - acima da amostra, módulo vertical do anteparo (marca "1 mm") num carro com fuso vertical e acoplamento azul;
+  - placa na frente da posição de medida com um cilindro preto. A função do cilindro e do fuso não está confirmada; só a forma vem das fotos.
+- A posição de medida passou a ser o furo de trás do trocador (o centro da roda fica na frente), como nas fotos.
+- Em repouso, os braços ficam em 2θ ≈ 60°, como nas fotos. Pode ser só a posição em que pararam.
+- Preparo do porta-amostra (foto): pó bem compactado, rente à borda e sem pó nas paredes e na borda do anel.
